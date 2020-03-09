@@ -113,7 +113,7 @@ background-image:url("../img/slide1.jpg");
 .topper
 {
 	position:relative;
-	bottom:100px;
+	bottom:0px;
 }
 .spons
 {
