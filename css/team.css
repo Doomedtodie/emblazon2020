@@ -253,6 +253,7 @@ main {
 	cursor: pointer;
 	display: block;
 	position: relative;
+	font-size:32px;
 }
 
 .strip__item-link::before {
@@ -532,4 +533,10 @@ ion-icon{
 }
 .qr{
 	width:150px;
+}
+@media (max-width: 600px){
+	.strip-inner{
+		position:relative;
+		top:-80px;
+	}
 }
