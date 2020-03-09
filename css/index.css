@@ -1,0 +1,214 @@
+/* Style for our header texts
+	* --------------------------------------- */
+	h1{
+		font-size: 5em;
+		font-family: arial,helvetica;
+		color: #fff;
+		margin:0;
+		padding:0;
+	}
+
+	/* Centered texts in each section
+	* --------------------------------------- */
+	.section{
+		text-align:center;
+		overflow: hidden;
+	}
+
+	#myVideo{
+		position: absolute;
+		right: 0;
+		bottom: 0;
+		top:0;
+		right:0;
+		width: 100%;
+		height: 100%;
+		background-size: 100% 100%;
+ 		background-color: black; /* in case the video doesn't fit the whole page*/
+  		background-image: /* our video */;
+  		background-position: center center;
+  		background-size: contain;
+   		object-fit: cover; /*cover video background */
+   		z-index:3;
+		filter: blur(11px);
+		filter:brightness(83%)
+	}
+
+
+
+	/* Layer with position absolute in order to have it over the video
+	* --------------------------------------- */
+	#section0 .layer{
+		position: absolute;
+		z-index: 4;
+		width: 100%;
+		left: 0;
+		top: 43%;
+
+		/*
+		* Preventing flicker on some browsers
+		* See http://stackoverflow.com/a/36671466/1081396  or issue #183
+		*/
+		-webkit-transform: translate3d(0,0,0);
+		-ms-transform: translate3d(0,0,0);
+		transform: translate3d(0,0,0);
+	}
+
+	/*solves problem with overflowing video in Mac with Chrome */
+	#section0{
+		overflow: hidden;
+	}
+
+
+	/* Bottom menu
+	* --------------------------------------- */
+	#infoMenu li a {
+		color: #fff;
+	}
+#slide1{
+background-image:url("../img/slide1.jpg");
+}
+#slide2{
+	background-image:url("../img/slide2.jpg");
+}
+#slide3{
+	background-image:url("../img/slide3.jpg");
+}
+.topper{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.topteam{
+	font-family: 'Josefin Sans', sans-serif;
+}
+.qr{
+	width:150px;
+}
+.layer{
+	position:relative;
+	bottom:250px;
+}
+.date
+{	position:relative;
+	bottom:280px;
+	font-size:50px;
+	color:white;
+	font-family: 'Abril Fatface', cursive;
+}
+.presents
+{
+	position:relative;
+	bottom:310px;
+	font-size:34px;
+	color:white;
+	font-family:'Arvo', serif;
+	
+}
+.titlespo
+{
+	width:200px;
+	position:relative;
+	bottom:350px;
+	margin:20px;
+}
+.topper
+{
+	position:relative;
+	bottom:50px;
+}
+.spons
+{
+	height:250px;
+	position:relative;
+	margin:50px;
+}
+.titlespo1
+{
+	width:180px;
+	position:relative;
+	bottom:350px;
+	margin: 20px;
+}
+.eventp
+{
+	width:900px;
+}
+.group{
+	width:700px;
+	position:relative;
+}
+	
+	/* Hiding video controls
+	* See: https://css-tricks.com/custom-controls-in-html5-video-full-screen/
+	* --------------------------------------- */
+	video::-webkit-media-controls {
+	  display:none !important;
+	}
+	.logo
+	{
+		width:600px;
+		position:relative;
+		bottom:240px;
+	}
+	.hmr
+	{
+		width:1100px;
+		position:relative;
+		bottom:250px;
+	}
+	@media (max-width: 600px){
+		.logo
+	{
+		width:340px;
+		position:relative;
+		bottom:150px;
+	}
+	.hmr
+	{
+		width:90%;
+		position:relative;
+		bottom:200px;
+	}
+	.date
+{	position:relative;
+	bottom:150px;
+	font-size:36px;
+	color:white;
+	font-family: 'Abril Fatface', cursive;
+}
+.presents
+{
+	position:relative;
+	bottom:180px;
+	font-size:24px;
+	color:white;
+	font-family:'Arvo', serif;
+	
+}
+.topper
+{
+	position:relative;
+	bottom:100px;
+	font-size:70px;
+	
+}
+
+.spons
+{
+	height:130px;
+	position:relative;
+}
+.titlespo
+{
+	width:120px;
+	position:relative;
+	bottom:200px;
+	margin:20px;
+}
+.titlespo1
+{
+	width:100px;
+	position:relative;
+	bottom:200px;
+	margin: 20px;
+}
+	}

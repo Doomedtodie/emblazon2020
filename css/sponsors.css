@@ -1,0 +1,52 @@
+nav
+{
+    background: black;
+}
+body{
+    overflow-y: visible;
+	background:black;
+	
+}
+@media (max-width: 600px){
+	body{
+		    width: 100vw;
+    padding: 0 0 0 0;
+}
+}
+.sponsors-sp{
+	color: black;
+    font-size: 5rem;
+    font-family: "Ikaros-Sans";
+    letter-spacing: 5px;
+    position: relative;
+	text-align: center;
+}
+@media (max-width: 600px){
+.sponsers-sp {
+    font-size: 2.5rem;
+    text-align: center;
+}
+}
+.heading{
+	    font-size: 3.5vh;
+    font-family: Lato;
+    letter-spacing: 2px;
+    word-spacing: 7px;
+    font-weight: lighter;
+    text-transform: capitalize;
+    border-top: 2px solid #000;
+    border-bottom: 2px solid #000;
+    border-radius: 25%;
+    width: 50%;
+    margin: 30px 0px 30px 0px;;
+	
+}
+.wrap{
+	    padding-top: 1vh;
+    padding-bottom: 1vh;
+    margin: auto;
+    background: #fff;
+width: 85%;}
+.qr{
+	width:150px;
+}
