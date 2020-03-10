@@ -25,6 +25,10 @@ body {
 	font-family: fieldwork-hum, sans-serif;
 	-webkit-font-smoothing: antialiased;
 	-moz-osx-font-smoothing: grayscale;
+	
+}
+nav{
+	background-color:transparent;
 }
 
 main {
@@ -391,4 +395,7 @@ a:focus {
 }
 .qr{
 	width:150px;
+}
+.waves-effect{
+	display:block;
 }
